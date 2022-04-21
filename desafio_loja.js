@@ -9,7 +9,7 @@ function calcularDesconto(valor) {
     } else if (valor >= 80.0) {
         valorDesconto.push(valor * 0.1)
     } else if (valor >= 50.0) {
-        valorDesconto.push(valor * 0.5)
+        valorDesconto.push(valor * 0.05)
     }
 }
 
@@ -77,7 +77,3 @@ function realizarcompras(comprasDosClientes) {
     
     console.log("Valores da compra da Lilit")
     realizarcompras(clienteLilit)
-    console.log("valores da compra da Adrielle")
-    realizarcompras(clienteAdrielle)
-    console.log("valores da compra da Emanuelly")
-    realizarcompras(clienteEmanuelly)
