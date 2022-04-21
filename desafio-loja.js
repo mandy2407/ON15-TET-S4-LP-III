@@ -23,7 +23,7 @@ function realizarcompras(comprasDosClientes) {
     
     valorTotal = valorTotal.reduce((acumulador, atual) => acumulador + atual)
     valorDesconto = valorDesconto.reduce((acumulador, atual) => acumulador + atual)
-    let valorTotal = valorTotal - valorDesconto
+    let valorFinal = valorTotal - valorDesconto
     let dataDaCompra = new Date()
 
 
@@ -75,5 +75,9 @@ function realizarcompras(comprasDosClientes) {
     {produto: 'Meia calça vermelha', valor: 40.0},
     {produto: 'Camisa personalizada anime', valor: 120.0}]
     
+    console.log ("Valores da compra da Lilit")
+    realizarcompras(clienteLilit)
+    console.log ("valores da compra da Adrielle")
+    realizarcompras(clienteAdrielle)
+    console.log ("valores da compra da Emanuelly")
     realizarcompras(clienteEmanuelly)
-console.log(clienteAdrielle)
