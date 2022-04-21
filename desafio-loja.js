@@ -75,9 +75,9 @@ function realizarcompras(comprasDosClientes) {
     {produto: 'Meia calça vermelha', valor: 40.0},
     {produto: 'Camisa personalizada anime', valor: 120.0}]
     
-    console.log ("Valores da compra da Lilit")
+    console.log("Valores da compra da Lilit")
     realizarcompras(clienteLilit)
-    console.log ("valores da compra da Adrielle")
+    console.log("valores da compra da Adrielle")
     realizarcompras(clienteAdrielle)
-    console.log ("valores da compra da Emanuelly")
+    console.log("valores da compra da Emanuelly")
     realizarcompras(clienteEmanuelly)
